@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<header>
+	<meta charset="utf-8">
+	<title>Reporting on Events</title>
+</header>
+
+<body>
+	<form action="" method="post" id="theForm">
+		<fieldset><legend>Reporting Events</legend>
+			<p>Select the Events you want to listen for</p>
+			<div><label>mouseover</label><input type="checkbox" name="mouseover" id="mouseover" value="mouseover"></div>
+			<div><label>mouseout</label><input type="checkbox" name="mouseout" id="mouseout" value="mouseout"></div>
+			<div><label>click</label><input type="checkbox" name="click" id="click" value="click"></div>
+			<div><label>keypress</label><input type="checkbox" name="keypress" id="keypress" value="keypress"></div>
+			<div><label>blur</label><input type="checkbox" name="blur" id="blur" value="blur"></div>
+			<div><input type="submit" id="submit" value="Submit"></div>
+            <div><label for="output">Output</label><textarea name="output" id="output" disabled></textarea></div>
+        </fieldset>
+	</form>
+	<script src="events.js"></script>
+	<script src="utilities.js"></script>
+</body>
+
+<footer>
+</footer>
+
+</html>
